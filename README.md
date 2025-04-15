@@ -9,3 +9,8 @@ To begin with, you should be able to run this by running:
 3) `yarn start:dev` or navigate to package.json and run the script manually
 
 You can change the structure however you like! 
+
+-specified yarn version to match existing version
+-app would run but intellisense giving false errors, update sdk settings to fix
+-app would not run, red herring error, .pnp.cjs in home dir was cause of issue
+-more false error due to express version and express types version mismatch
