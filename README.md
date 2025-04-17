@@ -16,3 +16,4 @@ You can change the structure however you like!
 -more false error due to express version and express types version mismatch
 - yarn berry pnp errors fixed by forced mismatch or typescript version between sdk and package.json - using pnpm instead
 - updating deprecated dependencies
+- TODO add husky or equivalent back in ( pre commit in husky dir)
