@@ -16,5 +16,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: corepack enable && yarn --version
-      - run: yarn cichecks
+      - run: corepack enable && pnpm --version
+      - run: pnpm cichecks
